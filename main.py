@@ -1,8 +1,18 @@
 #Function 1
 # Returns Area of Rectangle
 
+#Hannigan's function
+def rect_area(length,width):
+    result = length * width
+    return result
+
 #Function 2
 # Returns Surface Area of Rectangular Solid
+
+# Zane's Function
+def rect_surface_area(length, width, height):
+    # takes parameters length, width, height (int) and returns surface area
+    return 2 * (rect_area(length, width) + rect_area(length, height) + rect_area(width, height))
 
 # Request the dimension of a solid rectangular object
 
